@@ -1,0 +1,21 @@
+
+
+mixin qlikapp-card(qlikapp)
+
+      .panel.panel-default
+        .panel-heading
+          h4.panel-title
+            a.accordion-toggle(data-toggle='collapse', 
+            href='#collapseOne') 
+              | #{qlikapp.qDocName}
+
+        #collapseOne.panel-collapse.collapse.in
+          .panel-body
+            | #{qlikapp.qMeta.description}
+          
+            
+    
+    
+
+
+    

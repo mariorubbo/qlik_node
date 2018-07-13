@@ -1,0 +1,12 @@
+
+mixin qlikapp-card(qlikapp)
+  div.qlikapp-card 
+    h3.DocName #{qlikapp.qDocName}
+    span.FileSize #{qlikapp.qFileSize}
+    span.FileTime #{qlikapp.qFileTime}
+    span.ConnectedUsers #{qlikapp.qConnectedUsers}
+    span.Description #{qlikapp.qMeta.description}
+    span.Title #{qlikapp.qMeta.qTitle}
+    span.LastReloadTime #{qlikapp.qMeta.qLastReloadTime}
+
+    

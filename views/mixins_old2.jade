@@ -1,0 +1,25 @@
+
+mixin qlikapp-card(qlikapp)
+  div.row 
+    div.col-sm-3 
+      h4 #{qlikapp.qDocName}
+    div.col-sm-2 
+      p #{qlikapp.qFileSize}
+    div.col-sm-1 
+      p #{qlikapp.qFileTime}
+    div.col-sm-1 
+      p #{qlikapp.qConnectedUsers}
+    div.col-sm-3 
+      p #{qlikapp.qMeta.qTitle}
+    div.col-sm-2 
+      p #{qlikapp.qMeta.qLastReloadTime}
+    div.col-sm-6 
+      p #{qlikapp.qMeta.description}
+    
+    
+    
+    
+    
+
+
+    
